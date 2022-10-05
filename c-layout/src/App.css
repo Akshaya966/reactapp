@@ -1,0 +1,29 @@
+.main_menu{
+  position: absolute;
+  display: flex;
+  left: 0%;
+  top: 0%;
+}
+.main_menu > li > a{
+  display: block;
+  padding: 13px 20px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.main_menu > li:first-child > a{
+  padding-left: 0;
+}
+.main_menu > li.active > a,
+.main_menu > li:hover > a
+{
+  color: blue
+}
+logo{
+  background-color: black;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
